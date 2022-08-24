@@ -1,0 +1,18 @@
+---
+AccessModifierOffset: -4
+AlwaysBreakTemplateDeclarations: true
+BinPackArguments: false
+BinPackParameters: false
+BraceWrapping:
+    AfterClass: true
+    AfterControlStatement: true
+    AfterEnum: true
+    AfterFunction: true
+    AfterStruct: true
+    BeforeCatch: true
+    BeforeElse: true
+BreakBeforeBraces: Custom
+ColumnLimit: 100
+IndentWidth: 4
+PointerAlignment: Left
+...

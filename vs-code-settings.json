@@ -1,0 +1,17 @@
+{
+    "C_Cpp.clang_format_fallbackStyle": "none",
+    "C_Cpp.default.cppStandard": "c++20",
+    "editor.fontFamily": "Source Code Pro",
+    "editor.rulers": [
+        100,
+        120
+    ],
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "python.formatting.autopep8Args": [
+        "--max-line-length",
+        "120",
+        "--experimental"
+    ],
+    "workbench.startupEditor": "none"
+}
