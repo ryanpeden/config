@@ -1,0 +1,21 @@
+{
+    "C_Cpp.clang_format_style": "Google",
+    "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+    "C_Cpp.default.compilerPath": "/opt/homebrew/opt/llvm/bin/clang++",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.intelliSenseMode": "clang-arm64",
+    "editor.fontFamily": "Source Code Pro",
+    "editor.rulers": [
+        100
+    ],
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "notebook.lineNumbers": "on",
+    "python.analysis.typeCheckingMode": "standard",
+    "python.defaultInterpreterPath": "/Users/ryanpeden/.venv",
+    "python.terminal.activateEnvironment": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultLocation": "editor",
+    "workbench.startupEditor": "none"
+}
