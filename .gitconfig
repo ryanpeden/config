@@ -3,8 +3,3 @@
     email = ryan.peden@gmail.com
 [init]
     defaultBranch = main
-[pager]
-    branch = false
-    diff = false
-    grep = false
-    log = "less -F"

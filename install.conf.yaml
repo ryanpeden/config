@@ -1,0 +1,17 @@
+- defaults:
+    link:
+      relink: true
+      force: true
+
+- link:
+    ~/.gitconfig: .gitconfig
+    ~/.tmux.conf: .tmux.conf
+    ~/.vimrc: .vimrc
+    ~/.zshrc: .zshrc
+    ~/.config/ruff/ruff.toml: ruff.toml
+
+- shell:
+    - [brew bundle --file=Brewfile, "Installing Homebrew packages"]
+    - [./scripts/setup_python_venv.sh, "Setting up Python virtual environment"]
+
+- clean: ['~']
