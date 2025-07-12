@@ -10,6 +10,13 @@ path=(
 export EDITOR='vim'
 export PYTHONBREAKPOINT=ipdb.set_trace
 
+if type brew &>/dev/null; then
+    fpath=($(brew --prefix)/share/zsh-completions $fpath)
+fi
+
+autoload -Uz compinit
+compinit -i
+
 alias ..='cd ..'
 alias ...='cd ../..'
 alias e='vim'
