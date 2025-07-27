@@ -20,4 +20,7 @@
     - command: ./scripts/setup_python_venv.sh
       description: Setting up Python virtual environment
 
+- link:
+    "~/Library/Application Support/Code/User/settings.json": vscode-settings.json
+
 - clean: ['~']
