@@ -3,6 +3,10 @@
       relink: true
       force: true
 
+- shell:
+    - command: mkdir -p ~/.config/ruff
+      description: Creating ruff config directory
+
 - link:
     ~/.gitconfig: .gitconfig
     ~/.tmux.conf: .tmux.conf
@@ -11,7 +15,9 @@
     ~/.config/ruff/ruff.toml: ruff.toml
 
 - shell:
-    - [brew bundle --file=Brewfile, "Installing Homebrew packages"]
-    - [./scripts/setup_python_venv.sh, "Setting up Python virtual environment"]
+    - command: brew bundle --file=Brewfile
+      description: Installing Homebrew packages
+    - command: ./scripts/setup_python_venv.sh
+      description: Setting up Python virtual environment
 
 - clean: ['~']
