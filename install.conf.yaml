@@ -15,7 +15,7 @@
     ~/.config/ruff/ruff.toml: ruff.toml
 
 - shell:
-    - command: brew bundle --file=Brewfile
+    - command: ./scripts/setup_homebrew.sh
       description: Installing Homebrew packages
     - command: ./scripts/setup_python_venv.sh
       description: Setting up Python virtual environment

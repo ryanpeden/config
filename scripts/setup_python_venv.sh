@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-set -ex
+set -e
 
 VENV_PATH="$HOME/.venv"
 REQS_PATH="$(dirname "$0")/../requirements.txt"
