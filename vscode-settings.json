@@ -13,7 +13,7 @@
     "files.trimTrailingWhitespace": true,
     "notebook.lineNumbers": "on",
     "python.analysis.typeCheckingMode": "standard",
-    "python.defaultInterpreterPath": "/Users/ryanpeden/.venv",
+    "python.defaultInterpreterPath": "/Users/ryanpeden/.venv/bin/python",
     "python.terminal.activateEnvironment": false,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultLocation": "editor",

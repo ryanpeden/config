@@ -3,9 +3,9 @@
       relink: true
       force: true
 
-- shell:
-    - command: mkdir -p ~/.config/ruff
-      description: Creating ruff config directory
+- create:
+    ~/.config/ruff:
+      mode: 0755
 
 - link:
     ~/.gitconfig: .gitconfig
