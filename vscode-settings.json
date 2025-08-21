@@ -15,6 +15,7 @@
     "python.analysis.typeCheckingMode": "standard",
     "python.defaultInterpreterPath": "/Users/ryanpeden/.venv/bin/python",
     "python.terminal.activateEnvironment": false,
+    "security.workspace.trust.untrustedFiles": "open",
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.defaultLocation": "editor",
     "workbench.startupEditor": "none"
