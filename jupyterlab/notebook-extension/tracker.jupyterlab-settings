@@ -1,0 +1,14 @@
+{
+    "codeCellConfig": {
+        "autoClosingBrackets": true,
+        "rulers": [
+            125
+        ]
+    },
+    "markdownCellConfig": {
+        "matchBrackets": true,
+        "rulers": [
+            125
+        ]
+    }
+}
