@@ -6,6 +6,10 @@
 - create:
     ~/.config/ruff:
       mode: 0755
+    ~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension:
+      mode: 0755
+    ~/.jupyter/lab/user-settings/@jupyterlab/completer-extension:
+      mode: 0755
 
 - link:
     ~/.gitconfig: .gitconfig
@@ -21,6 +25,8 @@
       description: Setting up Python virtual environment
 
 - link:
+    "~/.jupyter/lab/user-settings/@jupyterlab/completer-extension/manager.jupyterlab-settings": jupyterlab/completer-extension/manager.jupyterlab-settings
+    "~/.jupyter/lab/user-settings/@jupyterlab/notebook-extension/tracker.jupyterlab-settings": jupyterlab/notebook-extension/tracker.jupyterlab-settings
     "~/Library/Application Support/Code/User/settings.json": vscode-settings.json
 
 - clean: ['~']
